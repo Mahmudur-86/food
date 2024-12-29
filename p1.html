@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Food Cart</title>
+    <style>
+.container{
+    width: 100%;
+}
+.header1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   box-sizing: border-box;
+   h1{
+    text-align: center;
+   color: green;
+   padding: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   box-sizing: border-box;
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+ transition: 0.2s ease-in;
+ font-size: 18px;
+}
+nav ul a:hover{
+    background-color: aqua;
+    color: white;
+}
+
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.header2 img{
+width: 100%;
+height: 600px;
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+}
+.header2 img:hover{
+    transform: scale(1.04);
+}
+.header2 h4{
+    padding: 5px;
+    text-align: center;
+}
+.header2 h3{
+    padding: 5px;
+    text-align: center;
+}
+
+.header2 button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: aqua;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+font-size: 20px;
+display: block;
+margin: 0 auto;
+transition: 0.2s all;
+}
+.header2 button:hover{
+    transform: scale(1.10);
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header1">
+<h1><b>Food Cart</b></h1>
+<nav>
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Order</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Contact</li></a>
+    </ul>
+
+</nav>
+
+        </div>
+
+      <section class="items">
+        <div class="header2">
+            
+<img src="./image/pizza.jpg" alt="">
+<h4>Pizza</h4>
+<button>Order</button>
+<h3>Price: 600TK </h3>
+            
+        </div>
+        <div class="header2">
+            
+            <img src="./image/burger.jpg" alt="">
+            <h4>Burger</h4>
+            <button>Order</button>
+            <h3>Price: 250TK </h3>
+                        
+                    </div>
+                            <div class="header2">
+            
+                                <img src="./image/pasta.jpg" alt="">
+                        <h4>Pasta</h4>
+                        <button>Order</button>
+                        <h3>Price: 400TK</h3>
+                                    
+                                </div>
+                                <div class="header2">
+            
+                                    <img src="./image/chickencrispy.jpg" alt="">
+                                    <h4>Chicken-crispy</h4>
+                                    <button>Order</button>
+                                    <h3>Price: 280TK</h3>
+                                                
+                                            </div>
+                                            <div class="header2">
+            
+                                                <img src="./image/coffee.jpg" alt="">
+                                                <h4>Coffee</h4>
+                                                <button>Order</button>
+                                                <h3>Price: 190TK</h3>
+                                                            
+                                                        </div>
+                                                        <div class="header2">
+            
+                                                            <img src="./image/mango-juice.jpg" alt="">
+                                                            <h4>Mango-juice</h4>
+                                                            <button>Order</button>
+                                                            <h3>Price: 80TK</h3>
+                                                                        
+                                                                    </div>
+                                                                    <div class="header2">
+            
+                                                                        <img src="./image/cold.jpg" alt="">
+                                                                        <h4>Cold Drinks</h4>
+                                                                        <button>Order</button>
+                                                                        <h3>Price: 25TK</h3>
+                                                                                    
+                                                                                </div>
+                                                                                
+<h2>Hello </h2>
+
+                                                                  
+      </section>
+    </div>
+</body>
+</html>
